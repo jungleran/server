@@ -326,6 +326,10 @@ img, object, video, button, textarea, input, select, div[contenteditable='true']
 	@include icon-color('public', 'actions', $color-black, 1, true);
 }
 
+.icon-public-white {
+	background-image: url('../img/actions/public-white.svg?v=1');
+}
+
 .icon-quota {
 	@include icon-color('quota', 'actions', $color-black, 1, true);
 }
